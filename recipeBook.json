@@ -1,0 +1,94 @@
+{
+  "uuid": "6987ef74-e10c-48a1-b6e8-0bcf2fa57ac7",
+  "lastMigration": 33,
+  "name": "RecipeBook",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "0.0.0.0",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "513c6769-167d-46a7-b0b3-03060018cd03",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "recipes",
+      "responses": [
+        {
+          "uuid": "48e3922e-b2bb-4e25-b679-4fc5da096b4d",
+          "body": "{\r\n  \"recipes\": [\r\n    {\r\n      \"name\": \"Espaguetis a la Carbonara\",\r\n      \"author\": \"Chef María López\",\r\n      \"image_link\": \"https://d36fw6y2wq3bat.cloudfront.net/recipes/espaguetis-a-la-carbonara/900/espaguetis-a-la-carbonara.jpg\",\r\n      \"recipe\": [\r\n        \"Cuece los espaguetis en agua con sal hasta que estén al dente.\",\r\n        \"En un bol, bate huevos y añade queso parmesano rallado.\",\r\n        \"Fríe panceta en una sartén hasta que esté crujiente.\",\r\n        \"Mezcla los espaguetis con la panceta y la mezcla de huevo y queso.\",\r\n        \"Sirve con más queso y pimienta negra al gusto.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Ensalada César\",\r\n      \"author\": \"Chef Juan Martínez\",\r\n      \"image_link\": \"https://comedera.com/wp-content/uploads/sites/9/2021/12/ensalada-de-lechuga1.jpg?w=4096\",\r\n      \"recipe\": [\r\n        \"Lava y corta la lechuga romana.\",\r\n        \"Añade crutones y queso parmesano rallado.\",\r\n        \"Prepara la salsa con mayonesa, ajo, limón, anchoas y queso parmesano.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Paella Valenciana\",\r\n      \"author\": \"Chef Ana García\",\r\n      \"image_link\": \"https://img-global.cpcdn.com/recipes/recipes_123301_v1420981937_receta_foto_00123301-vowmoa2f6rq1lkyessrw/1200x630cq70/photo.jpg\",\r\n      \"recipe\": [\r\n        \"Sofríe pollo y conejo en una paellera con aceite de oliva.\",\r\n        \"Añade judías verdes, garrofó y tomate rallado.\",\r\n        \"Incorpora arroz y caldo de pollo.\",\r\n        \"Cocina a fuego medio hasta que el arroz esté hecho.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Tacos al Pastor\",\r\n      \"author\": \"Chef Luis Rodríguez\",\r\n      \"image_link\": \"https://www.culinaryhill.com/wp-content/uploads/2022/12/Tacos-al-Pastor-Culinary-Hill-1200x800-1-500x500.jpg\",\r\n      \"recipe\": [\r\n        \"Marina la carne con achiote y especias.\",\r\n        \"Asa la carne en un trompo vertical.\",\r\n        \"Corta la carne en tiras y sirve en tortillas.\",\r\n        \"Añade piña, cebolla y cilantro.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Ceviche Peruano\",\r\n      \"author\": \"Chef Isabel Pérez\",\r\n      \"image_link\": \"https://cdn0.recetasgratis.net/es/posts/7/4/1/ceviche_peruano_18147_600_square.jpg\",\r\n      \"recipe\": [\r\n        \"Corta pescado fresco en cubos.\",\r\n        \"Marina el pescado con jugo de limón, cebolla y ají.\",\r\n        \"Añade cilantro y sal al gusto.\",\r\n        \"Sirve con camote y choclo.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Pizza Margarita\",\r\n      \"author\": \"Chef Marco Bianchi\",\r\n      \"image_link\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh7-18uhQBshQdfFRgRRciaLghKoajjI9A3g&s\",\r\n      \"recipe\": [\r\n        \"Extiende la masa de pizza y añade salsa de tomate.\",\r\n        \"Coloca rodajas de mozzarella y hojas de albahaca.\",\r\n        \"Hornea la pizza hasta que esté dorada.\",\r\n        \"Añade un chorrito de aceite de oliva.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Sushi Rolls\",\r\n      \"author\": \"Chef Akira Yamamoto\",\r\n      \"image_link\": \"https://www.allrecipes.com/thmb/PujANugNXQW7ugnivQt8b4_-13k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RM-169856-CreamCheeseandCrabSushiRolls-ddmfs-3x4-6421-8d233e210db3458f8574bafad1c69e70.jpg\",\r\n      \"recipe\": [\r\n        \"Cocina el arroz para sushi y añade vinagre de arroz.\",\r\n        \"Coloca el arroz sobre una hoja de alga nori.\",\r\n        \"Añade pescado fresco y otros ingredientes.\",\r\n        \"Enrolla y corta en piezas.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Croissants\",\r\n      \"author\": \"Chef Pierre Dupont\",\r\n      \"image_link\": \"https://www.bakels.pe/wp-content/uploads/sites/31/2023/12/croissants-tabla-cortar-madera-scaled.jpg\",\r\n      \"recipe\": [\r\n        \"Prepara la masa con harina, mantequilla y levadura.\",\r\n        \"Forma triángulos y enrolla para dar forma de croissant.\",\r\n        \"Deja que fermenten y hornea hasta que estén dorados.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Pad Thai\",\r\n      \"author\": \"Chef Somchai Suksan\",\r\n      \"image_link\": \"https://www.pucheromix.com/wp-content/uploads/2023/09/pad-thai-receta.jpg\",\r\n      \"recipe\": [\r\n        \"Saltea fideos de arroz con tofu, huevo y brotes de soja.\",\r\n        \"Añade salsa de pescado, tamarindo y azúcar.\",\r\n        \"Decora con cacahuetes y cilantro.\"\r\n      ]\r\n    },\r\n    {\r\n      \"name\": \"Moussaka\",\r\n      \"author\": \"Chef Elena Papadopoulos\",\r\n      \"image_link\": \"https://www.recipetineats.com/tachyon/2019/03/Greek-Moussaka_3-re-edited-SQ.jpg?resize=500%2C375\",\r\n      \"recipe\": [\r\n        \"Corta berenjenas y sofríelas.\",\r\n        \"Prepara una capa de carne de cordero con tomate.\",\r\n        \"Cubre con bechamel y hornea.\"\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "513c6769-167d-46a7-b0b3-03060018cd03"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
